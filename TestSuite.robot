@@ -2,7 +2,6 @@
 Documentation     RestAssured API Testing
 ...
 ...               Keywords are imported from the resource file
-Resource          keywords.resource
 Default Tags      positive  start
 Library           Collections
 Library           lib.py
