@@ -7,5 +7,10 @@ def execute_tests():
     # status = run.run(testcase_path, listener = "allure_robotframework")
     return status
 
+def list_files():
+    files = os.listdir(os.curdir)
+    print(files)
+
 
 execute_tests()
+list_files()
