@@ -11,6 +11,10 @@ def execute_tests():
 def list_files():
     files = os.listdir(os.curdir)
     print(files)
+    files = os.listdir('output')
+    print(files)
+    files = os.listdir('output/allure')
+    print(files)
 
 
 execute_tests()
