@@ -1,8 +1,5 @@
 
 FROM python:3.7
-COPY test.py ./
-CMD ["cd .."]
-CMD ["cd .."]
-CMD ["echo $ls"]
+RUN echo "$PWD"
 COPY requirements.txt ./requirements.txt
 RUN pip install -r requirements.txt
