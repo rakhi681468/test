@@ -14,4 +14,4 @@ jobs:
         args:
         - "-c"
         - |
-          python my_failing_python_code.py
+          python3 test.py
