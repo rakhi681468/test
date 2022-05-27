@@ -1,0 +1,17 @@
+---
+jobs:
+- name: job
+  public: true
+  plan:
+  - task: simple-task
+    config:
+      platform: linux
+      image_resource:
+        type: docker-image
+        source: python3
+      run:
+        path: bash
+        args:
+        - "-c"
+        - |
+          python my_failing_python_code.py
